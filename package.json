@@ -32,6 +32,10 @@
   "engines": {
     "node": ">= 4"
   },
+  "renovate": {
+    "extends": [":library"],
+    "prCreation": "immediate"
+  },
   "files": [
     "/rules/**/*"
   ]
