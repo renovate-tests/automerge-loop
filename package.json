@@ -27,7 +27,7 @@
     "release": "standard-version"
   },
   "devDependencies": {
-    "tslint-config-ikatyang": "2.2.0"
+    "tslint-config-ikatyang": "2.3.0"
   },
   "engines": {
     "node": ">= 4"
