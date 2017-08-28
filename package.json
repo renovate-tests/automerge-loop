@@ -36,7 +36,11 @@
     "extends": [":library"],
     "automerge": "pr",
     "requiredStatusChecks": null,
-    "prCreation": "immediate"
+    "prCreation": "immediate",
+    "lockFileMaintenance": {
+      "enabled": true,
+      "schedule": []
+    }
   },
   "files": [
     "/rules/**/*"
