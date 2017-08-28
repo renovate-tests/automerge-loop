@@ -34,7 +34,7 @@
   },
   "renovate": {
     "extends": [":library"],
-    "automerge": "pr",
+    "automerge": true,
     "requiredStatusChecks": null,
     "prCreation": "immediate",
     "lockFileMaintenance": {
