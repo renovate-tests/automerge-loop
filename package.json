@@ -27,13 +27,14 @@
     "release": "standard-version"
   },
   "devDependencies": {
-    "tslint-config-ikatyang": "2.3.0"
+    "tslint-config-ikatyang": "2.2.0"
   },
   "engines": {
     "node": ">= 4"
   },
   "renovate": {
     "extends": [":library"],
+    "recreateClosed": true,
     "automerge": true,
     "requiredStatusChecks": null,
     "prCreation": "immediate",
